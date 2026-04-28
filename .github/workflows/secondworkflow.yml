@@ -14,7 +14,7 @@ jobs:
       - name: Checking out to the repository
         uses: actions/checkout@v4
       - name: Printing the contents of a file
-        run: cat firstfile.txt
+        run: cat secondfile.py
   second-job:
     runs-on: ubuntu-latest
     steps:
